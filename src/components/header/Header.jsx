@@ -11,12 +11,12 @@ function Header() {
 
   return (
     <header className="header">
-        <nav className="nav container">
+        <nav className="nav containerGang">
             {/* see how i feel abt diff names */}
             <a href="index.html" className="nav__logo">@shamsharoon</a>
 
             <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
-                <ul className="nav__list">
+                <ul className="nav__list grid1">
                     <li className="nav__item">
                         <a href="#home" className="nav__link active-link">
                             <i className="uil uil-estate nav__icon"></i> Home
